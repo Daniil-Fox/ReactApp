@@ -1,0 +1,22 @@
+.contentRow {
+    padding: 11rem 0;
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    &__content {
+        padding: 0 8rem;
+        padding-top: 5rem;
+    }
+
+    &__desc {
+        margin-bottom: 6rem;
+    }
+
+    &__image {}
+
+    &__title {}
+}
