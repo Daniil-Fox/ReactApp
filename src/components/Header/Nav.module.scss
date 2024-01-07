@@ -14,8 +14,14 @@
         line-height: normal;
         opacity: 0.5;
 
+        &:hover {
+            text-decoration: underline;
+        }
+
         &:not([href]) {
             opacity: 1;
         }
+
+
     }
 }

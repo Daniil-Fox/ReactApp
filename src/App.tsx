@@ -11,6 +11,7 @@ import src2 from './assets/leading/02.png'
 import Button from './components/Button'
 import Slider from './components/Slider'
 import Articles from './components/Articles'
+import Footer from './components/Footer'
 
 function App() {
   const btn1 = <Button text='Learn more' state=' btn--stroke'/>
@@ -22,7 +23,6 @@ function App() {
         <main>
           <Hero/>
           <Service/>
-        </main>
           <ContentRow
               title='Leading healthcare providers'
               desc="We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver"
@@ -45,8 +45,9 @@ function App() {
           />
           <Slider/>
           <Articles/>
+        </main>
       </div>
-      
+      <Footer/>
     </>
   )
 }
