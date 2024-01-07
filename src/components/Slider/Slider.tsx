@@ -74,6 +74,7 @@ const Slider : React.FC = () => {
                     className={'btn-reset ' + classes.SliderControl__btn + ' ' + classes.SliderControl__btnPrev} 
                     onClick={() => moveSlider(1)}
                     style={{opacity: `${slide == 0 ? 0.5 : 1}`}}
+                    disabled = {slide == 0}
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" viewBox="0 0 32 20">
                         <g>
@@ -88,6 +89,7 @@ const Slider : React.FC = () => {
                     className={'btn-reset ' + classes.SliderControl__btn + ' ' + classes.SliderControl__btnNext}
                     onClick={() => moveSlider(-1)}
                     style={{opacity: `${slide == slides.length - 1 ? 0.5 : 1}`}}
+                    disabled = {slide == slides.length - 1}
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" viewBox="0 0 32 20">
                         <g>

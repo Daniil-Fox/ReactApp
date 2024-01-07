@@ -10,6 +10,7 @@ import srcExp2 from './assets/leading/02-2x.png'
 import src2 from './assets/leading/02.png'
 import Button from './components/Button'
 import Slider from './components/Slider'
+import Articles from './components/Articles'
 
 function App() {
   const btn1 = <Button text='Learn more' state=' btn--stroke'/>
@@ -43,6 +44,7 @@ function App() {
               btn={btnDw}
           />
           <Slider/>
+          <Articles/>
       </div>
       
     </>
