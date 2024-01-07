@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+<h1>Virtual Healthcare</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+Сайт, созданный с помощью библиотеки React.js 
+---
+Можно обратить внимание на кнопочки и их анимацию заливки. Кнопочки выделены в отдельный компонент.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_Далее приведу скриншоты данного сайта._
 
-## Expanding the ESLint configuration
+![главная](main.png)
+![услуги](service.png)
+![simple](simple.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2>Слайдер</h2>
 
-- Configure the top-level `parserOptions` property like this:
+![слайдер](slider.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<h2>Секция со статьями расскрывается и закрывается при нажатии на кнопку</h2>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+![галлерея1](gallery01.png)
+
+
+![галлерея2](gallery02.png)
+
+![подвал](footer.png)
